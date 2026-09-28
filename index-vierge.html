@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#26382d">
+	<meta name="description" content="Présentation de votre restaurant.">
+	<title>NOTALIA</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="javascript/script.js" defer></script>
+</head>
+<body>
+	<main>
+		<section class="hero" id="accueil">
+			<header class="site-header">
+				<a class="brand" href="#accueil" aria-label="Accueil"><span class="brand-mark">N</span> Notalia</a>
+				<nav class="desktop-nav" aria-label="Navigation principale">
+					<a href="#presentation">Présentation</a>
+					<a href="#carte">La carte</a>
+					<a class="nav-cta" href="#infos">Nous contacter</a>
+				</nav>
+				<details class="mobile-nav">
+					<summary aria-label="Ouvrir le menu"><span></span></summary>
+					<nav aria-label="Navigation mobile">
+						<a href="#presentation">Présentation</a>
+						<a href="#carte">La carte</a>
+						<a href="#infos">Nous contacter</a>
+					</nav>
+				</details>
+			</header>
+			<div class="hero-content">
+				<p class="eyebrow">Italien · Enghien</p>
+				<h1>Bienvenue chez<br><span>Notalia</span>.</h1>
+				<p class="hero-copy">Chez Notalia, chaque assiette est un voyage en Italie : pâtes fraîches, saveurs généreuses et ambiance chaleureuse, venez vous régaler ! 🍝</p>
+				<a class="button" href="#carte">Découvrir la carte <span class="arrow" aria-hidden="true">→</span></a>
+			</div>
+			<p class="hero-note">Chez Notalia, l'Italie s'invite à votre table : à vous les pâtes fraîches, il ne manque que vous ! 🇮🇹</p>
+		</section>
+
+		<section class="intro" id="presentation" aria-labelledby="intro-title">
+			<div>
+				<p class="eyebrow">Bienvenue</p>
+				<h2 id="intro-title">Une cuisine qui vous ressemble.</h2>
+				<p class="intro-copy">Chez Notalia, on cuisine l'Italie comme on l'aime : simple, généreuse et faite avec des produits soignés. Pâtes fraîches, pizzas croustillantes et desserts maison vous attendent dans une ambiance chaleureuse, pour un repas entre amis ou en famille.</p>
+			</div>
+			<div class="intro-stamp" aria-label="Votre signature">Chez<br>Notalia<br>♥</div>
+		</section>
+
+		<section class="menu-section" id="carte" aria-labelledby="menu-title">
+			<div class="section-inner">
+				<div class="section-heading">
+					<div>
+						<p class="eyebrow">À découvrir</p>
+						<h2 id="menu-title">Quelques incontournables</h2>
+					</div>
+					<a class="text-link" href="images/Menu.jpg" target="_blank" rel="noopener noreferrer">Voir toute la carte <span aria-hidden="true">→</span></a>
+				</div>
+				<div class="dishes">
+					<article class="dish">
+						<img src="images/pates-01.jpg" alt="Photo du premier plat à remplacer" loading="lazy">
+						<div class="dish-meta"><h3>Spaghettis aux crevettes</h3><span class="dish-price">16€</span></div>
+						<p>des spaghettis à l'ail et à l'huile d'olive, garnis de grosses crevettes sautées et d'un peu de persil.</p>
+					</article>
+					<article class="dish">
+						<img src="images/pizza-03.jpg" alt="Photo du deuxième plat à remplacer" loading="lazy">
+						<div class="dish-meta"><h3>Pizza aux olives noires et basilic</h3><span class="dish-price">14€</span></div>
+						<p>une pizza à la base tomate, avec de la mozzarella, des olives noires et des feuilles de basilic frais. Elle ressemble à une pizza margherita aux olives.</p>
+					</article>
+					<article class="dish">
+						<img src="images/dessert-02.jpg" alt="Photo du troisième plat à remplacer" loading="lazy">
+						<div class="dish-meta"><h3>Verrines de dessert</h3><span class="dish-price">8€</span></div>
+						<p>deux verrines glacées, l'une à la fraise ou pastèque et l'autre en couches jaune, verte et blanche (type panna cotta ou mousse). Elles sont décorées de feuilles de menthe.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="story" aria-labelledby="story-title">
+			<div class="story-image" role="img" aria-label="images/table.jpg"></div>
+			<div class="story-copy">
+				<p class="eyebrow">Notre histoire</p>
+				<h2 id="story-title"><p>Notalia est un restaurant italien chaleureux où l'on savoure des pâtes fraîches, des pizzas croustillantes et des desserts maison, dans une ambiance conviviale pour tous vos repas entre amis ou en famille.</p></h2>
+				<p><p>Chez Notalia, une équipe passionnée vous accueille comme en famille et vous sert une cuisine italienne généreuse, faite maison.</p></p>
+				<a class="text-link" href="#infos">En savoir plus <span aria-hidden="true">→</span></a>
+			</div>
+		</section>
+
+		<section class="closing" id="infos">
+			<p class="eyebrow">À bientôt</p>
+			<h2 id="hours-title">Adresse et horaires</h2>
+			<div class="opening-details">
+				<div class="restaurant-contact">
+					<h3>Adresse</h3>
+					<address class="restaurant-address">Rue du Village 50<br>7850 Enghien</address>
+					<h3>Téléphone</h3>
+					<a class="restaurant-phone" href="tel:+32497027048">0497/02/70/48</a>
+					<h3>Moyens de paiement</h3>
+					<ul class="payment-methods">
+						<li>Espèces</li>
+						<li>Bancontact / carte de débit</li>
+						<li>Visa / Mastercard</li>
+						<li>Paiement sans contact</li>
+						<li>Chèques-repas</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Horaires</h3>
+					<table class="opening-hours" aria-label="Horaires d’ouverture">
+						<tbody>
+							<tr><th scope="row">Lundi</th><td>11:00-16:00, 18:30–23:00</td></tr>
+							<tr><th scope="row">Mardi</th><td>11:00-16:00, 18:30–23:00</td></tr>
+							<tr><th scope="row">Mercredi</th><td>11:00-16:00, 18:30–23:00</td></tr>
+							<tr><th scope="row">Jeudi</th><td>11:00-16:00, 18:30–23:00</td></tr>
+							<tr><th scope="row">Vendredi</th><td>11:00-16:00, 18:30–23:00</td></tr>
+							<tr><th scope="row">Samedi</th><td>11:00-16:00, 18:30–23:00</td></tr>
+							<tr><th scope="row">Dimanche</th><td>11:00-16:00, 18:30–23:00</td></tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<a class="button" href="tel:+32497027048">Nous appeler <span class="arrow" aria-hidden="true">→</span></a>
+		</section>
+	</main>
+	<footer>
+		<a class="brand" href="#accueil"><span class="brand-mark">N</span> Notalia</a>
+		<p>Notalia, le goût de l'Italie, la chaleur d'une famille.</p>
+		<p>© Notalia</p>
+	</footer>
+</body>
+</html>
