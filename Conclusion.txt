@@ -1,0 +1,10 @@
+Donc dans un premier temps j'ai adorée faire ce site je me suis aidé d'un site template Italien pour faire ma mise en pages
+Ensuite j'ai commencé a réorganisé mon site de manières plus propres et claire au visuel et simple
+J'ai commencé a placé mes image / texte / menu (carte des différents plats)
+j'ai fait sur 2 html pour avoir plus simple pour la section de cours qui etait demandé sur les consignes du pdf
+
+Je me suis aidé de L'IA pour toute la partie css et JS pour gagné du temps sur mon developpement html du site 
+J'ai aussi fait en sorte que le site sois accessible aussi sur telephone,
+mais j'ai encore du mal sur le code de la barre de navigation sur telephone donc je m'aide de L'IA pour codé la bar de navigation mobile
+et aussi pour introduire la video que je savais plus comment on fesais.
+je l'ai ensuite posté sur github pour pouvoir avoir acces ou je veux sans heberger le site via mon pc 
